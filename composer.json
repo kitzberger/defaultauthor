@@ -1,0 +1,33 @@
+{
+    "name": "kitzberger/defaultauthor",
+    "type": "typo3-cms-extension",
+    "description": "Prefills the author/email fields in pages, sys_notes and news to the info of the currently logged in user.",
+    "homepage": "https://github.com/kitzberger/defaultauthor",
+    "authors": [
+        {
+            "name": "Philipp Kitzberger",
+            "email": "typo3@kitze.net",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kitzberger/defaultauthor/issues"
+    },
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "typo3/cms-core": "^13.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kitzberger\\Defaultauthor\\": "Classes"
+        }
+    },
+    "replace": {
+        "typo3-ter/defaultauthor": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "defaultauthor"
+        }
+    }
+}
