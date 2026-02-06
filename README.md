@@ -24,6 +24,13 @@ The extension registers a `FormDataProvider` that runs when the backend form eng
 
 The user can still modify these values before saving.
 
+## Kudos
+
+This extension is based on the work of:
+
+- Ernesto Baschny (EXT:cron_setdefaultauthor)
+- Mike Tölle (EXT:setdefaultauthor)
+
 ## License
 
 GPL-3.0-or-later
