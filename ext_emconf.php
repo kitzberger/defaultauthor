@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Default Author',
-    'description' => 'Defaults the author/email fields in pages, sys_notes and news to the info from the currently logged in user',
+    'description' => 'Prefills the author/email fields in pages, sys_notes and news with the currently logged-in user\s information.',
     'category' => 'be',
     'version' => '13.0.0',
     'state' => 'stable',

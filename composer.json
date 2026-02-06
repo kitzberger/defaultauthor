@@ -1,7 +1,7 @@
 {
     "name": "kitzberger/defaultauthor",
     "type": "typo3-cms-extension",
-    "description": "Prefills the author/email fields in pages, sys_notes and news to the info of the currently logged in user.",
+    "description": "Prefills the author/email fields in pages, sys_notes and news with the currently logged-in user's information.",
     "homepage": "https://github.com/kitzberger/defaultauthor",
     "authors": [
         {
